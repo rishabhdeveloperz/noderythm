@@ -33,7 +33,7 @@ app.get('/playMP3', async (req, res) => {
       .pipe(res);
   } catch (error) {
     console.error('Error streaming MP3:', error.message);
-    res.status(500).send('Internal Server Error');
+    res.status(500).send('Internal Server Error hai bhai');
   }
 });
 let currentValue = '';
