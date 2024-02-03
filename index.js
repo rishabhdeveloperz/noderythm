@@ -68,7 +68,7 @@ app.post('/update', async (req, res) => {
     }
   } catch (error) {
     console.error('Error processing request:', error.message);
-    res.status(500).json({ message: 'Internal Server Error' });
+    res.status(500).json({ message: 'Internal Server Error bro' });
   }
 });
 
