@@ -64,7 +64,7 @@ app.post('/update', async (req, res) => {
       res.json({ message: 'Form submitted successfully!', videoInfo });
     } else {
       console.log('Failed to fetch video link.');
-      res.status(500).json({ message: 'Internal Server Error' });
+      res.status(500).json({ message: 'Internal Server Error he' });
     }
   } catch (error) {
     console.error('Error processing request:', error.message);
