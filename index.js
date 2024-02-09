@@ -101,7 +101,7 @@ async function getVideoInfo(videoUrl) {
       title: videoInfo.videoDetails.title,
       author: videoInfo.videoDetails.author.name,
       thumbnail: thumbnail,
-      audioUrl: `https://noderythm.cyclic.app/playMP3?url=${videoUrl}`,
+      audioUrl: `https://noderythm2.cyclic.app/playMP3?url=${videoUrl}`,
     };
   } catch (error) {
     console.error('Error fetching video information:', error.message);
